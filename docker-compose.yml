@@ -1,0 +1,6 @@
+services:
+  sigploit:
+    image: sigploit
+    build:
+      context: .
+      dockerfile: ./Dockerfile
